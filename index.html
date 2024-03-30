@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TURKISH AIRLINES</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS ile Üst Şeritteki Metinlerin Sağa Dayalı Olarak Hizalanması */
+        .top-nav .right-section {
+            float: right;
+        }
+        
+        /* CSS ile Alt Şeritteki Bileşenlerin Düzenlenmesi */
+        .bottom-nav {
+            background-color: #002d72;
+            color: white;
+            padding: 10px;
+        }
+
+        .bottom-nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .bottom-nav .menu {
+            float: right;
+        }
+
+        .bottom-nav .logo img {
+            vertical-align: middle;
+        }
+
+        .bottom-nav .logo span {
+            font-size: 1.5rem;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="right-section">
+                    <a href="#">Corporate Club</a>
+                    <a href="#">Miles&amp;Smiles</a>
+                    <a href="#">Search</a>
+                    <a href="#">Language</a>
+                </div>
+            </div>
+        </nav>
+        <nav class="bottom-nav">
+            <div class="container">
+                <div class="logo">
+                    <img src="logo.png" alt="Turkish Airlines Logo">
+                    <span>Turkish Airlines</span>
+                </div>
+                <div class="menu">
+                    <a href="#">PLAN&amp;BOOK</a>
+                    <a href="#">FLY DIFFERENT</a>
+                    <a href="#">DISCOVER</a>
+                    <a href="#">MILES&amp;SMILES</a>
+                    <a href="#">HELP</a>
+                    <a href="#">Sign up</a>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h1>HELLO</h1>
+                <p>Where do you want to explore?</p>
+                <div class="hero-options">
+                    <a href="#" class="active">Flight</a>
+                    <a href="#">Check in</a>
+                    <a href="#">Flight Status</a>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="From">
+                    <input type="text" placeholder="To">
+                    <input type="date">
+                    <select name="class-type" id="class-type">
+                        <option value="economy">Economy</option>
+                        <option value="business">Business</option>
+                    </select>
+                    <div class="passenger-options">
+                        <div class="passenger-buttons">
+                            <span>Adult:</span>
+                            <button>-</button>
+                            <span id="adult-count">0</span>
+                            <button>+</button>
+                        </div>
+                        <div class="passenger-buttons">
+                            <span>Child:</span>
+                            <button>-</button>
+                            <span id="child-count">0</span>
+                            <button>+</button>
+                        </div>
+                        <div class="passenger-buttons">
+                            <span>Infant:</span>
+                            <button>-</button>
+                            <span id="infant-count">0</span>
+                            <button>+</button>
+                        </div>
+                        <div class="passenger-buttons">
+                            <span>Student:</span>
+                            <button>-</button>
+                            <span id="student-count">0</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <button>Search</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="services">
+        <div class="container">
+            <a href="#"><img src="seat-selection.png" alt="Seat Selection">Seat Selection</a>
+            <a href="#"><img src="extra-baggage.png" alt="Extra Baggage">Extra Baggage</a>
+            <a href="#"><img src="book-hotel.png" alt="Book a Hotel">Book a Hotel</a>
+            <a href="#"><img src="rent-car.png" alt="Rent a Car">Rent a Car</a>
+            <a href="#"><img src="travel-insurance.png" alt="Travel Insurance">Travel Insurance</a>
+            <a href="#"><img src="gift-card.png" alt="Gift Card">Gift Card</a>
+        </div>
+    </section>
+<div class="container-announcement">
+  <div class="announcement">
+    
+    <p>Dear Passengers,<br>On March 31, 2024, due to the local elections in Türkiye, additional rights have been granted to our passengers who are citizens of the Republic of Türkiye. You can find detailed information on <a href="page1.html">this page</a>.</p>
+  </div>
+  <div class="announcement">
+    
+    <p>Dear Passengers,<br>On March 31, 2024, due to the local elections in Türkiye, additional rights have been granted to our passengers who are citizens of the Republic of Türkiye. You can find detailed information on <a href="page2.html">this page</a>.</p>
+  </div>
+  <div class="announcement">
+    <p>Dear Passengers,<br>Due to the terrorist attacks in Moscow, additional rights have been granted to our passengers who are registered on Moscow flights. You can find detailed information on <a href="page3.html">this page</a>.</p>
+  </div>
+  <div class="announcement">
+    
+    <p>Our new brand AJet started online ticket sales!<br>AnadoluJet, which meets the air transportation needs of Anatolia in an advantageous way, started ticket sales under the name AJet as of March 12, 2024 via its official website AJet.com. You can find detailed information about your questions about AnadoluJet and AJet flights on <a href="page4.html">this page</a>.</p>
+  </div>
+  <div class="announcement">
+    
+    <p>Dear Passengers,<br>Some additional controls may be applied to accept passengers on our flights to Venezuela, Mexico, Colombia, Panama, Cuba and Brazil. You can find detailed information on <a href="page5.html">this page</a>.</p>
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="box">
+    <img src="tk_wallet.jpg" alt="For advantageous refunds and fast payment" class="image">
+    <div class="caption">
+      <h2>For advantageous refunds and fast payment: TK Wallet!</h2>
+      <p>With TK Wallet, our special product for Miles&Smiles members, you can perform payments and complete refund processes quickly and easily via a digital wallet created in one of four available currencies. In addition, you can earn incremental TK Money via refunds to your digital wallet.</p>
+      <a href="#" class="discover-btn">Discover</a>
+    </div>
+  </div>
+  <div class="box">
+    <img src="touristanbul.jpg" alt="Touristanbul: An amazing experience!" class="image">
+    <div class="caption">
+      <h2>Touristanbul: An amazing experience!</h2>
+      <p>You can benefit from our complimentary Touristanbul service to make memories which is offered to our passengers who have a connecting international flight in Istanbul with a layover between 6-24 hours.</p>
+      <a href="#" class="discover-btn">Discover</a>
+    </div>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">See Our Best Offers From</button>
+  <div class="dropdown-content">
+    <a href="#">Afghanistan</a><a href="#">Albania</a><a href="#">Algeria</a><a href="#">Andorra</a><a href="#">Angola</a><a href="#">Antigua and Barbuda</a><a href="#">Argentina</a><a href="#">Armenia</a><a href="#">Australia</a><a href="#">Austria</a><a href="#">Azerbaijan</a><a href="#">Bahamas</a><a href="#">Bahrain</a><a href="#">Bangladesh</a><a href="#">Barbados</a><a href="#">Belarus</a><a href="#">Belgium</a><a href="#">Belize</a><a href="#">Benin</a><a href="#">Bhutan</a><a href="#">Bolivia</a><a href="#">Bosnia and Herzegovina</a><a href="#">Botswana</a><a href="#">Brazil</a><a href="#">Brunei</a><a href="#">Bulgaria</a><a href="#">Burkina Faso</a><a href="#">Burundi</a><a href="#">Cabo Verde</a><a href="#">Cambodia</a><a href="#">Cameroon</a><a href="#">Canada</a><a href="#">Central African Republic</a><a href="#">Chad</a><a href="#">Chile</a><a href="#">China</a><a href="#">Colombia</a><a href="#">Comoros</a><a href="#">Congo</a><a href="#">Costa Rica</a><a href="#">Croatia</a><a href="#">Cuba</a><a href="#">Cyprus</a><a href="#">Czech Republic</a><a href="#">Denmark</a><a href="#">Djibouti</a><a href="#">Dominica</a><a href="#">Dominican Republic</a><a href="#">Ecuador</a><a href="#">Egypt</a><a href="#">El Salvador</a><a href="#">Equatorial Guinea</a><a href="#">Eritrea</a><a href="#">Estonia</a><a href="#">Eswatini</a><a href="#">Ethiopia</a><a href="#">Fiji</a><a href="#">Finland</a><a href="#">France</a><a href="#">Gabon</a><a href="#">Gambia</a><a href="#">Georgia</a><a href="#">Germany</a><a href="#">Ghana</a><a href="#">Greece</a><a href="#">Grenada</a><a href="#">Guatemala</a><a href="#">Guinea</a><a href="#">Guinea-Bissau</a><a href="#">Guyana</a><a href="#">Haiti</a><a href="#">Honduras</a><a href="#">Hungary</a><a href="#">Iceland</a><a href="#">India</a><a href="#">Indonesia</a><a href="#">Iran</a><a href="#">Iraq</a><a href="#">Ireland</a><a href="#">Israel</a><a href="#">Italy</a><a href="#">Jamaica</a><a href="#">Japan</a><a href="#">Jordan</a><a href="#">Kazakhstan</a><a href="#">Kenya</a><a href="#">Kiribati</a><a href="#">Kosovo</a><a href="#">Kuwait</a><a href="#">Kyrgyzstan</a><a href="#">Laos</a><a href="#">Latvia</a><a href="#">Lebanon</a><a href="#">Lesotho</a><a href="#">Liberia</a><a href="#">Libya</a><a href="#">Liechtenstein</a><a href="#">Lithuania</a><a href="#">Luxembourg</a><a href="#">Madagascar</a><a href="#">Malawi</a><a href="#">Malaysia</a><a href="#">Maldives</a><a href="#">Mali</a><a href="#">Malta</a><a href="#">Marshall Islands</a><a href="#">Mauritania</a><a href="#">Mauritius</a><a href="#">Mexico</a><a href="#">Micronesia</a><a href="#">Moldova</a><a href="#">Monaco</a><a href="#">Mongolia</a><a href="#">Montenegro</a><a href="#">Morocco</a><a href="#">Mozambique</a><a href="#">Myanmar</a><a href="#">Namibia</a><a href="#">Nauru</a><a href="#">Nepal</a><a href="#">Netherlands</a><a href="#">New Zealand</a><a href="#">Nicaragua</a><a href="#">Niger</a><a href="#">Nigeria</a><a href="#">North Korea</a><a href="#">North Macedonia</a><a href="#">Norway</a><a href="#">Oman</a><a href="#">Pakistan</a><a href="#">Palau</a><a href="#">Palestine</a><a href="#">Panama</a><a href="#">Papua New Guinea</a><a href="#">Paraguay</a><a href="#">Peru</a><a href="#">Philippines</a><a href="#">Poland</a><a href="#">Portugal</a><a href="#">Qatar</a><a href="#">Romania</a><a href="#">Russia</a><a href="#">Rwanda</a><a href="#">Saint Kitts and Nevis</a><a href="#">Saint Lucia</a><a href="#">Saint Vincent and the Grenadines</a><a href="#">Samoa</a><a href="#">San Marino</a><a href="#">Sao Tome and Principe</a><a href="#">Saudi Arabia</a><a href="#">Senegal</a><a href="#">Serbia</a><a href="#">Seychelles</a><a href="#">Sierra Leone</a><a href="#">Singapore</a><a href="#">Slovakia</a><a href="#">Slovenia</a><a href="#">Solomon Islands</a><a href="#">Somalia</a><a href="#">South Africa</a><a href="#">South Korea</a><a href="#">South Sudan</a><a href="#">Spain</a><a href="#">Sri Lanka</a><a href="#">Sudan</a><a href="#">Suriname</a><a href="#">Sweden</a><a href="#">Switzerland</a><a href="#">Syria</a><a href="#">Taiwan</a><a href="#">Tajikistan</a><a href="#">Tanzania</a><a href="#">Thailand</a><a href="#">Timor-Leste</a><a href="#">Togo</a><a href="#">Tonga</a><a href="#">Trinidad and Tobago</a><a href="#">Tunisia</a><a href="#">Turkey</a><a href="#">Turkmenistan</a><a href="#">Tuvalu</a><a href="#">Uganda</a><a href="#">Ukraine</a><a href="#">United Arab Emirates</a><a href="#">United Kingdom</a><a href="#">United States</a><a href="#">Uruguay</a><a href="#">Uzbekistan</a><a href="#">Vanuatu</a><a href="#">Vatican City</a><a href="#">Venezuela</a><a href="#">Vietnam</a><a href="#">Yemen</a><a href="#">Zambia</a><a href="#">Zimbabwe</a>
+  </div>
+</div>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/turkishairlines" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="https://twitter.com/turkishairlines" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com/turkishairlines/" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+        <a href="https://www.youtube.com/user/TURKISHAIRLINES" target="_blank"><img src="youtube-icon.png" alt="YouTube"></a>
+    </div>
+
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Turkish Airlines. All Rights Reserved.</p>
+        </div>
+    </footer>
+   
+
+</body>
+</html>
